@@ -6,11 +6,12 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: fastpages
-description: An easy to use blogging platform with support for Jupyter Notebooks.
-github_username: DataKind-BLR
+
+title: Panoptic
+description: A Face Recognition Tracker
+github_username: fastai
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "panoptic_fp"
+github_repo: "DataKind-BLR/panoptic_fp"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
@@ -39,8 +40,8 @@ baseurl: "/panoptic_fp" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    twitter: internetfreedomfoundation
+    github: 
 
 # Set this to true to get LaTeX math equation support
 use_math: 
@@ -76,6 +77,7 @@ default_badges:
 html_escape:
   description: false
 
+# -------------------------------------------------
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
 theme: minima
