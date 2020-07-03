@@ -1,7 +1,7 @@
 ---
 keywords: fastai
 description: "Test page created using Fast pages and Altair to check functionality and interactivity"
-title: "Updated_map - Indian States"
+title: Statewise FRT Systems
 toc: false
 branch: master
 badges: false

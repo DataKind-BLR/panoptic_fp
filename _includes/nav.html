@@ -1,0 +1,7 @@
+<ul class="navbar-nav ml-auto">
+{% for pl in site.data.navigation %}
+  <li class="nav-item">
+    <a class="nav-link" href="{{ pl.link | prepend: site.baseurl }}">{{ pl.title }}</a>
+  </li>
+{% endfor %}
+</ul>
