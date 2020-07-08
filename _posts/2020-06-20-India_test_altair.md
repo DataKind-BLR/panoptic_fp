@@ -1,6 +1,6 @@
 ---
 keywords: fastai
-description: "Test page created using Fast pages and Altair to check functionality and interactivity"
+description: The below map represents the state-wise count of FRT systems currently active across India.
 title: Statewise FRT Systems
 toc: false
 branch: master
@@ -32,6 +32,30 @@ layout: notebook
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="What-are-FRT-Systems?">What are FRT Systems?<a class="anchor-link" href="#What-are-FRT-Systems?"> </a></h1><p>As Smriti Parsheera explains in her recent paper, the process of FRT can be summarised in the following steps</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Detection of face in an image and/or video. For instance, phone cameras apply this feature when they auto-focus on a face while capturing a photo.
+Extraction of particular features from the detected image.
+Recognition which results in either identification or verification of an individual.
+Identification happens when FRT is used to identify an individual from a pool of many people</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This kind of 1:1 many FRT based identification is typically used for security and surveillance purposes. Verification, on the other hand, occurs when an image is compared to another image from an existing database in order to verify that the individual is who he/she claims to be, i.e., authentication of identity on a 1:1 basis</p>
+
+</div>
+</div>
+</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -105,7 +129,8 @@ layout: notebook
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="FRT-Systems-Deployed-in-India">FRT Systems Deployed in India<a class="anchor-link" href="#FRT-Systems-Deployed-in-India"> </a></h3>
+<p><em>Click on the respective state to view FRT System Details for that state</em></p>
+
 </div>
 </div>
 </div>
