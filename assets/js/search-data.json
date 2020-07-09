@@ -32,6 +32,17 @@
 
   
       ,"page4": {
+          "title": "Petition",
+          "content": "Loading…",
+          "url": "https://datakind-blr.github.io/panoptic_fp/petition/",
+          "relUrl": "/petition/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page5": {
           "title": "RTIs",
           "content": "List of RTIs filed by IFF. .",
           "url": "https://datakind-blr.github.io/panoptic_fp/rti/",
@@ -50,7 +61,7 @@
   
 
   
-      ,"page8": {
+      ,"page9": {
           "title": "Submit an FRT",
           "content": "Submit form for FRT Tracker by citizen. . sample form . Email * FRT Location Submit",
           "url": "https://datakind-blr.github.io/panoptic_fp/submit_frt/",
@@ -72,7 +83,7 @@
   
 
   
-      ,"page13": {
+      ,"page14": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://datakind-blr.github.io/panoptic_fp/robots.txt",
