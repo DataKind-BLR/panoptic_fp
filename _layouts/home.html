@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {% if site.paginate %}
+    {% assign rawposts = paginator.posts %}
+  {% else %}
+    {% assign rawposts = site.posts %}
+  {% endif %}
+
+
+  <!-- Hide posts if front matter flag hide:true -->
+  {% assign posts = ''|split:'' %}
+  {% for post in rawposts %}
+    {% if post.hide != true %}
+      {% assign posts = posts|push:post%}
+    {% endif %}
+  {% endfor %}
+
+  {%- if posts.size > 0 -%}
+    {%- for post in posts -%}
+      {%- if site.show_description and post.description -%}
+        {{ post.content }}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+
+<a class="button" href="#">
+  View National Level FRT Systems
+</a>
+
+
+<h1 class="text-center">Petition</h1>
+
+<p class="text-center">The petition is for calling on/asking the government to immediately put a moratorium on the development and use of FRT by government authorities</p>
+
+<a class="button" href="{{ site.url }}/petition">
+  Sign the Petition
+</a>
+
+
+
+<h1
+  style="
+    text-align: center;
+    margin-top: 50px;
+  ">
+Submit an FRT
+</h1>
+
+<p class="text-center">Help us identify an FRT system near you.</p>
+
+<a class="button" href="{{ site.url }}/submit_frt">
+  Submit an FRT
+</a>
+
+<h1
+  style="
+    text-align: center;
+    margin-top: 50px;
+  "
+>Case Studies</h1>
+
+<p class="text-center">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<a class="button" href="{{ site.url }}/case_studies">
+  View Case Studies
+</a>
+
+
+<h1
+  style="
+    text-align: center;
+    margin-top: 50px;
+  "
+  >RTIs
+</h1>
+
+<p class="text-center">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<a class="button" href="{{ site.url }}/rti">
+  View RTIs
+</a>
+
+</div>
+
+<hr />

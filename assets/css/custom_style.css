@@ -1,0 +1,25 @@
+
+a.button {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  padding: 10px;
+  border: 0;
+  color: #fff;
+  background: #2DA3D6;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  a.button:hover {
+    text-decoration: none;
+  }
+
+.text-center { text-align: center; }
+
+
+h1 { color: blue; }
+
+@media (max-width: 600px) {
+  h1 { color: red; }
+}
